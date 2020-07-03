@@ -1,0 +1,55 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+input{
+    padding: 0.7rem 0.9rem;
+    width: 300px;
+    border-radius: 3px;
+}
+.outputs{
+    margin: 0.7rem 0;
+}
+.outputs >div{
+    margin: 0.3rem 0;
+    border-radius: 5px;
+}
+p{
+    padding: 0rem 1rem;
+    width: 300px;
+    margin-top: 1rem;
+    display: flex;
+    align-items: baseline;
+}
+span{
+    font-size: .9rem;
+    padding-left: 1rem;
+}
+.gram{
+    background-color: #ddd;
+}
+.kilograms{
+    background-color: #6d699e;
+    color: white;
+}
+.ounces{
+    background-color: #396fb1;
+    color: white;
+}
+.tonne {
+    background-color: #4826ff;
+    color: white;
+}
+.mili{
+    background-color:#5CDF90;
+}
+
+footer{
+    text-align: center;
+}
